@@ -131,7 +131,7 @@ def func():
 
 # GUI launcher
 while True:
-    image = r"C:\Users\suhas\Desktop\project\app\pro\signlang.png"
+    image = r"C:\Users\sailesh\Desktop\project\app\pro\signlang.png"
     msg = "HEARING IMPAIRMENT ASSISTANT"
     choices = ["Live Voice", "All Done!"]
     reply = buttonbox(msg, image=image, choices=choices)
