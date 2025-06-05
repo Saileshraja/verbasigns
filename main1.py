@@ -16,8 +16,8 @@ def func():
     arr = list(string.ascii_lowercase)  # Simpler way to get a-z
 
     # Directories
-    letter_images_dir = r'C:\Users\suhas\Desktop\project\app\pro\letters'
-    gif_images_dir = r'C:\Users\suhas\Desktop\project\app\pro\ISL_Gifs'
+    letter_images_dir = r'C:\Users\sailesh\Desktop\project\app\pro\letters'
+    gif_images_dir = r'C:\Users\sailesh\Desktop\project\app\pro\ISL_Gifs'
 
     class ImageLabel(tk.Label):
         def load(self, im):
@@ -100,7 +100,7 @@ def func():
 
 # GUI loop
 while True:
-    image = r"C:\Users\suhas\Desktop\project\app\pro\signlang.png"
+    image = r"C:\Users\sailesh\Desktop\project\app\pro\signlang.png"
     msg = "HEARING IMPAIRMENT ASSISTANT"
     choices = ["Live Voice", "All Done!"]
     reply = buttonbox(msg, image=image, choices=choices)
